@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Suit [Batu, Gunting, Kertas]</title>
+        <link rel="stylesheet" href="./game-suit.css">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Bree+Serif" rel="stylesheet"> 
+	</head>
+
+	<body>
+
+		<div id="container">
+			<h1 id="welcome2">Tentukan Pilihan Mu!</h1>
+			<div id="welcome-note">
+				<h1 id="welcome">Welcome To Suit Game !</h1>
+				<button id="button-start">Mulai bermain</button>
+			</div>
+			<div id="arena">
+				<div id="user-selection"></div>
+				<div id="versus"></div>
+				<div id="computer-selection"></div>
+			</div>
+			<div id="option">
+				<div class="select-option gunting">
+					<img src="./assets/gunting.png" />
+					<p>Gunting</p>
+				</div>
+				<div class="select-option kertas">
+					<img src="./assets/kertas.png" />
+					<p>Kertas</p>
+				</div>
+				<div class="select-option batu">
+					<img src="./assets/batu.png" />
+					<p>batu</p>
+				</div>
+				<div class="select-option score">
+					<p>Score Board</p>
+					<p id="user"></p>
+					<p id="computer"></p>
+				</div>
+			</div>
+		</div>
+
+        <script type="text/javascript" src="./game-suit.js"></script>
+	</body>
+
+</html>
